@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--We want to create a toolbar so change Toolbar from LinearLayout.
+But there is a problem that view requires API level 21 to write only Toolbar.So we
+write that androidx.appcompat.widget.Toolbar. -->
+<!-- android:orientatiton doesn't necessarily but we have to change  android:layout_height="56dp" this is rule.-->
+<!--How can I put this toolbar into activity_main.xml. Let's go to activity_main.xml.-->
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myToolbar"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="#F4D03F">
+
+</androidx.appcompat.widget.Toolbar>

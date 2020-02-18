@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AndroidMaterialDesignTechniques</string>
+
+    <string name="call_name">Call</string>
+    <string name="video_name">Video</string>
+    <string name="location_name">Location</string>
+    <string name="camera_name">Camera</string>
+</resources>

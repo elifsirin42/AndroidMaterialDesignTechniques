@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Let's some items in this file for menu.But first of all we have to create some icons.
+  res->drawable(RC)->New->Vector Asset->click on icon then choose icon what you want.(RC=Right Click)-->
+<!-- Let's go to strings.xml then define title of item.You can't write directly.You must to write strings.xml
+then you get this in strings.xml if you need that.-->
+
+<!--Right now complete this file.Let's go to MainActivity and define this menu.-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/call_icon"
+        android:icon="@drawable/ic_call_black_24dp"
+        android:title="@string/call_name"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/location_icon"
+        android:icon="@drawable/ic_my_location_black_24dp"
+        android:title="@string/location_name"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/camera_icon"
+        android:icon="@drawable/ic_photo_camera_black_24dp"
+        android:title="@string/camera_name"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/video_icon"
+        android:icon="@drawable/ic_videocam_black_24dp"
+        android:title="@string/video_name"
+        app:showAsAction="ifRoom"/>
+
+
+
+</menu>
